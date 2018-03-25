@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.riskimidiw.kuispahlawan.MainActivity">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_above="@id/btn_about"
+        android:layout_marginBottom="100dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        style="@style/Button"
+        android:layout_above="@id/btn_about"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ButtonStart"/>
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="25dp"
+        style="@style/Button"
+        android:layout_above="@id/title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/About"/>
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text"
+        android:background="#fc1900"
+        android:padding="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:textSize="24sp"
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="KUIS"/>
+
+        <TextView
+            android:textSize="24sp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Pahlawan"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        style="@style/Description"
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/version"
+        android:layout_centerHorizontal="true"
+        android:text="@string/KuisPahlawan"/>
+
+    <TextView
+        android:id="@+id/version"
+        style="@style/Description"
+        android:background="@color/background"
+        android:textAlignment="center"
+        android:paddingBottom="15dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/version"/>
+
+
+</RelativeLayout>

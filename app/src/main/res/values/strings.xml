@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kuis Pahlawan</string>
+    <string name="KuisPahlawan">Kuis Pahlawan adalah aplikasi tebak kata-kata mutiara dari Pahlawan Indonesia</string>
+    <string name="ButtonStart">Mulai</string>
+    <string name="About">Tentang</string>
+    <string name="version">Version 1.0</string>
+    <string name="IAKDescription">Aplikasi ini merupakan final project dari kelas Indonesia Android Kejar (IAK) - Beginner</string>
+    <string name="nilai">NILAI</string>
+    <string name="score">50</string>
+    <string name="pembahasan">pembahasan</string>
+</resources>
