@@ -20,15 +20,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnAbout.setOnClickListener(this);
     }
 
-    @Override
-    Intent j = new Intent(
+    Intent j;
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_start:
-                Intent i = new Intent(this, QuizActivity.class);
-                startActivity(i);
+                j = new Intent(this, QuizActivity.class);
+                startActivity(j);
                 break;
-            case R.id.btn_about:this, AboutActivity.class);
+            case R.id.btn_about:
+                j = new Intent(this, AboutActivity.class);
                 startActivity(j);
         }
 

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:screenOrientation="userPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,17 +19,21 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".QuizActivity"
             android:screenOrientation="userPortrait" />
         <activity
             android:name=".AnswerActivity"
-            android:screenOrientation="userPortrait"/>
+            android:screenOrientation="userPortrait" />
         <activity
             android:name=".ScoreActivity"
-            android:screenOrientation="userPortrait"/>
+            android:screenOrientation="userPortrait" />
         <activity
             android:name=".AboutActivity"
-            android:screenOrientation="userPortrait"/>
+            android:screenOrientation="userPortrait" />
+
     </application>
 
 </manifest>
